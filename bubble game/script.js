@@ -3,7 +3,7 @@ var score = 0;
 var match =0;
 
 function inscore(){
-   score += 10;
+   score += 1;
   document.querySelector("#scoreup").textContent = score;
 }
 inscore();
